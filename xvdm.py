@@ -1,6 +1,5 @@
 #X Video Download Manager main by xingyujie(xingyujie50@gmail.com)
 #copyleft 2022 xingyujie
-from cgitb import small
 import os, re
 import pywebio
 import pywebio.input
