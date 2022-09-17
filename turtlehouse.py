@@ -1,5 +1,3 @@
-import turtle
-import time
 
 turtle.speed(10)
 
