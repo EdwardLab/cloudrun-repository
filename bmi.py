@@ -2,8 +2,8 @@ from pywebio.input import input, FLOAT
 from pywebio.output import put_text
 
 def bmi():
-    height = input("请输入你的身高(cm)：", type=FLOAT)
-    weight = input("请输入你的体重(kg)：", type=FLOAT)
+    height = input("请输入你的身高(cm)：")
+    weight = input("请输入你的体重(kg)：")
 
     BMI = weight / (height / 100) ** 2
 
